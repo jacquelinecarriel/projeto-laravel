@@ -1,0 +1,74 @@
+body,
+html {
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    left: 90px;
+    right: 50px;
+}
+
+.container-pet-form {
+    width: 75%;
+    font-family: 'Quicksand', sans-serif;
+    /* float: right;
+    padding-right: 13%;
+    padding-left: 5%; */
+}
+
+.container-login {
+    width: 50%;
+    float: left;
+    padding-left: 13%;
+    padding-right: 5%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container-cadastro {
+    width: 50%;
+    float: right;
+    padding-right: 13%;
+    padding-left: 5%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container-itens {
+    width: 90%;
+    float: right;
+    margin-left: 10%;
+}
+
+.container-footer {
+    background-color;
+    color;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+p {
+    margin-left: 50px;
+    font-stretch: condensed;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(192, 192, 192);
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 27px;
+}
+
+label {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.promo {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(128, 128, 128);
+}
+
+.base {
+    margin-top: 100px;
+    float: left;
+    margin-left: 50px;
+}
