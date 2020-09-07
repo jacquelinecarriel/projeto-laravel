@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/homeprojeto', function(){
-    return view ('homeprojeto');
+Route::get('/homepage', function(){
+    return view ('homepage');
 })->name("home");
 
 Route::get('/ranking', function(){
@@ -47,3 +47,6 @@ Route::get('/', function(){
 });
  
  
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
